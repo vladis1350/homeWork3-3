@@ -7,7 +7,7 @@ public class Encode {
     }
 
     public void decode(char symbol) {
-        int code = (int)symbol;
+        int code = symbol;
         System.out.println(symbol + " => " + code);
     }
 }
